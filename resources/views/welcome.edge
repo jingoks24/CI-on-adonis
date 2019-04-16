@@ -1,0 +1,13 @@
+@layout('shared.layouts.master')
+
+@section('styles')
+  {{ style('dist/app.css') }}
+@endsection
+
+@section('content')
+  <div id="root"></div>
+@endsection
+
+@section('scripts')
+  {{script('dist/app.js')}}
+@endsection
