@@ -2,8 +2,6 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: cicleci/node:8
+      - image: circleci/node:8
     steps:
       - checkout
-      - run: npm install
-      - run: npm test
