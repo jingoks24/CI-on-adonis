@@ -1,0 +1,7 @@
+version: 2
+jobs:
+  build:
+    docker: 
+      -image: cicleci/node:8.12.0
+    steps:
+      - checkout
